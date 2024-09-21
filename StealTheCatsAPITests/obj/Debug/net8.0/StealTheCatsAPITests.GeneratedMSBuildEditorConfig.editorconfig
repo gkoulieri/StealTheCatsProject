@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StealTheCatsAPITests
-build_property.ProjectDir = C:\Users\Y9DVVT726\Documents\Steal the cats\StealTheCatsAPITests\
+build_property.ProjectDir = C:\Users\Y9DVVT726\Documents\MyRepo\StealTheCatsAPITests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

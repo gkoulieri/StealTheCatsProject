@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r6eTPFspVso=",
+  "dgSpecHash": "wMvrj5MorrA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Y9DVVT726\\Documents\\Steal the cats\\StealTheCatsAPITests\\StealTheCatsAPITests.csproj",
+  "projectFilePath": "C:\\Users\\Y9DVVT726\\Documents\\MyRepo\\StealTheCatsAPITests\\StealTheCatsAPITests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Y9DVVT726\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Y9DVVT726\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
