@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StealTheCatsAPI", "StealTheCatsAPI.csproj", "{B526968A-58F2-4F26-98A9-615F676EFA33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StealTheCatsAPITests", "..\StealTheCatsAPITests\StealTheCatsAPITests.csproj", "{D4D39365-AB1C-4475-9858-F38A0C76F6DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B526968A-58F2-4F26-98A9-615F676EFA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B526968A-58F2-4F26-98A9-615F676EFA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B526968A-58F2-4F26-98A9-615F676EFA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B526968A-58F2-4F26-98A9-615F676EFA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D39365-AB1C-4475-9858-F38A0C76F6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D39365-AB1C-4475-9858-F38A0C76F6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D39365-AB1C-4475-9858-F38A0C76F6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D39365-AB1C-4475-9858-F38A0C76F6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FC92A67-EE86-421C-9931-08EFB2660E6E}
+	EndGlobalSection
+EndGlobal

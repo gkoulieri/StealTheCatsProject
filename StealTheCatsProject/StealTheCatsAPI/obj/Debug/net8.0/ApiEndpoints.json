@@ -1,0 +1,95 @@
+[
+  {
+    "ContainingType": "StealTheCatsAPI.Controllers.StealTheCatsController",
+    "Method": "GetCatById",
+    "RelativePath": "api/StealTheCats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StealTheCatsAPI.Controllers.StealTheCatsController",
+    "Method": "FetchCatImages",
+    "RelativePath": "api/StealTheCats/fetch-cats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StealTheCatsAPI.Controllers.StealTheCatsController",
+    "Method": "FetchTags",
+    "RelativePath": "api/StealTheCats/fetch-tags",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StealTheCatsAPI.Controllers.StealTheCatsController",
+    "Method": "LinkTagsToCats",
+    "RelativePath": "api/StealTheCats/link-tags-to-cats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StealTheCatsAPI.Controllers.StealTheCatsController",
+    "Method": "GetCats",
+    "RelativePath": "api/StealTheCats/paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StealTheCatsAPI.Controllers.StealTheCatsController",
+    "Method": "GetCatsByTag",
+    "RelativePath": "api/StealTheCats/tag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

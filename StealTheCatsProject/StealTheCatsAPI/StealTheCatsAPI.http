@@ -1,0 +1,6 @@
+@StealTheCatsAPI_HostAddress = http://localhost:7063
+
+GET {{StealTheCatsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
