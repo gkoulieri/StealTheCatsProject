@@ -1,28 +1,21 @@
-# Step 1: Use the official Microsoft .NET SDK image to build and publish the app
+# Use the SDK image for the build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
-# Copy the project files to the container
-COPY . ./
-
-# Restore project dependencies
+# Copy the csproj and restore any dependencies
+COPY *.sln ./
+COPY StealTheCatsAPI/StealTheCatsAPI.csproj StealTheCatsAPI/
+COPY StealTheCatsAPITests/StealTheCatsAPITests.csproj StealTheCatsAPITests/
 RUN dotnet restore
 
-# Build the project in release mode
-RUN dotnet build -c Release
+# Copy the rest of the files and build the project
+COPY . ./
+RUN dotnet publish StealTheCatsAPI/StealTheCatsAPI.csproj -c Release -o out
 
-# Publish the app for deployment
-RUN dotnet publish -c Release -o out
-
-# Step 2: Use the official ASP.NET Core runtime image to run the app
+# Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
-
-# Copy the published files from the build environment
 COPY --from=build-env /app/out .
 
-# Expose port 80 for the app to listen on
-EXPOSE 80
-
-# Set the entry point to run the app
+# Set the entry point for the application
 ENTRYPOINT ["dotnet", "StealTheCatsAPI.dll"]
