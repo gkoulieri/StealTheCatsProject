@@ -18,7 +18,9 @@ Before you start, ensure you have the following installed on your local machine:
 Clone the repository from GitHub to your local machine.
 
 git clone https://github.com/gkoulieri/StealTheCatsProject.git
+
 cd StealTheCatsProject
+
 
 Setting Up the Database
 1. Configure SQL Server:
