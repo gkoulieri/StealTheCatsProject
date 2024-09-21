@@ -22,7 +22,7 @@ git clone https://github.com/gkoulieri/StealTheCatsProject.git
 cd StealTheCatsProject
 
 
-Setting Up the Database
+## Setting Up the Database
 1. Configure SQL Server:
 
 Ensure SQL Server is installed and running.
@@ -34,7 +34,7 @@ Update the appsettings.json file in the StealTheCatsAPI project to point to your
 
 
 
-Building and Running the Application
+## Building and Running the Application
 
 1.Restore Dependencies: Navigate to the StealTheCatsAPI directory and restore all dependencies using the .NET CLI.
 
@@ -57,12 +57,12 @@ https://localhost:7063/swagger
 
 This will display all available endpoints and allow you to test them directly.
 
-Running Unit Tests
+## Running Unit Tests
 Navigate to the StealTheCatsAPITests directory and run the unit tests using the .NET CLI.
 
 cd StealTheCatsAPITests
 dotnet test
 
-Conclusion
+## Conclusion
 This README provides all the necessary steps to set up and run the StealTheCatsProject locally. Feel free to reach out if you have any questions or need further clarifications.
 
