@@ -61,6 +61,7 @@ This will display all available endpoints and allow you to test them directly.
 Navigate to the StealTheCatsAPITests directory and run the unit tests using the .NET CLI.
 
 cd StealTheCatsAPITests
+
 dotnet test
 
 ## Conclusion
