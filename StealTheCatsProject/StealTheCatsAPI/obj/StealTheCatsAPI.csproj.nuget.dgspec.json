@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Y9DVVT726\\Documents\\TEST\\StealTheCatsTest-master\\StealTheCatsAPI\\StealTheCatsAPI.csproj": {}
+    "C:\\Users\\Y9DVVT726\\Documents\\Steal the cats\\StealTheCatsAPI\\StealTheCatsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Y9DVVT726\\Documents\\TEST\\StealTheCatsTest-master\\StealTheCatsAPI\\StealTheCatsAPI.csproj": {
+    "C:\\Users\\Y9DVVT726\\Documents\\Steal the cats\\StealTheCatsAPI\\StealTheCatsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Y9DVVT726\\Documents\\TEST\\StealTheCatsTest-master\\StealTheCatsAPI\\StealTheCatsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Y9DVVT726\\Documents\\Steal the cats\\StealTheCatsAPI\\StealTheCatsAPI.csproj",
         "projectName": "StealTheCatsAPI",
-        "projectPath": "C:\\Users\\Y9DVVT726\\Documents\\TEST\\StealTheCatsTest-master\\StealTheCatsAPI\\StealTheCatsAPI.csproj",
+        "projectPath": "C:\\Users\\Y9DVVT726\\Documents\\Steal the cats\\StealTheCatsAPI\\StealTheCatsAPI.csproj",
         "packagesPath": "C:\\Users\\Y9DVVT726\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Y9DVVT726\\Documents\\TEST\\StealTheCatsTest-master\\StealTheCatsAPI\\obj\\",
+        "outputPath": "C:\\Users\\Y9DVVT726\\Documents\\Steal the cats\\StealTheCatsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Y9DVVT726\\AppData\\Roaming\\NuGet\\NuGet.Config",
